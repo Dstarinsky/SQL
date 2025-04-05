@@ -36,8 +36,6 @@ CREATE TABLE "garage" (
 	FOREIGN KEY("manager_name") REFERENCES "managers"("name") on update cascade
 );
 INSERT INTO employee ( name , phone , department , title ) 
-VALUES ('David' , '0528204414' , 'management' , 'boss' );
-INSERT INTO employee ( name , phone , department , title ) 
 VALUES ('ron' , '0546704534' , 'cleaning' , 'boss' );
 INSERT INTO employee ( name , phone , department , title ) 
 VALUES ('Ami' , '0506235494' , 'financial' , 'accountist' );
