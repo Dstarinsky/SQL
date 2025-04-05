@@ -60,5 +60,5 @@ select * from cars;
 select * from managers;
 select * from garage;
 
-select color from cars where renter_name = (select id from employee where name ='David');
+select color from cars where renter_name = (select id from employee where name ='Ami');
 select employee.name , cars.color from cars  inner join employee on  cars.renter_name = employee.id;
